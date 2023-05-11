@@ -185,7 +185,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 .service-content img{
     width: 100%;
     padding: 10%;
-    height: 200px;
+    height: 250px;
     
 
 }
@@ -297,6 +297,8 @@ footer{
     text-align: justify;
 }
 }
+
+
 @media (max-width: 480px) {
     .single-contact {
           
@@ -314,7 +316,7 @@ footer{
 
 
 }
-@media (max-width:400px) {
+@media (max-width:480px) {
     .header__container ul li a{
         color:violet;
     }
@@ -332,6 +334,23 @@ footer{
     width: 80%;
 }
 }
+@media (max-width: 360px){
+    .service-content img {
+        width: 100%;
+        padding: 10%;
+        height: 200px;
+    }
+
+}
+@media (max-width: 640px){
+    .service-content img {
+        width: 100%;
+        padding: 10%;
+        height: 300px;
+    }
+
+}
+
 
 
 
